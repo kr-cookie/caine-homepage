@@ -318,3 +318,64 @@ details.panel > summary { cursor: pointer; font-weight: 700; color: var(--text);
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- Caine palette override ----------
+   Cookie Homepage layout/UX stays intact. Only color tokens are replaced
+   with a Caine-inspired purple, black, red, and green palette. */
+:root {
+  --bg: #08060d;
+  --bg-tint: radial-gradient(1100px 560px at 80% -12%, rgba(123,63,228,.18), transparent 58%);
+  --surface: #0d0814;
+  --panel: #17101f;
+  --panel-2: #120c19;
+  --text: #f5f1ff;
+  --muted: #c8bddb;
+  --faint: #8b7a9f;
+  --line: #352343;
+  --line-soft: #261b31;
+  --primary: #9b5cff;
+  --primary-strong: #c084fc;
+  --primary-ink: #f1d7ff;
+  --primary-soft: rgba(155,92,255,.16);
+  --accent: #ef3340;
+  --accent-soft: rgba(239,51,64,.16);
+  --code: #08060d;
+  --ring: rgba(57,255,136,.38);
+  --header-bg: #0b0710;
+  --header-fg: #f8f3ff;
+  --header-fg-muted: rgba(248,243,255,.72);
+  --header-hover: rgba(155,92,255,.14);
+  --header-active-bg: rgba(57,255,136,.13);
+  --header-field: rgba(248,243,255,.10);
+  --header-field-line: rgba(57,255,136,.24);
+  --header-underline: #39ff88;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f1ff;
+  --bg-tint: radial-gradient(1200px 600px at 80% -10%, rgba(155,92,255,.10), transparent 62%);
+  --surface: #efe6fb;
+  --panel: #ffffff;
+  --panel-2: #fbf7ff;
+  --text: #24172f;
+  --muted: #665475;
+  --faint: #8f7c9d;
+  --line: #e1d4ee;
+  --line-soft: #eee4f7;
+  --primary: #7b3fe4;
+  --primary-strong: #5e24c8;
+  --primary-ink: #43158f;
+  --primary-soft: #efe4ff;
+  --accent: #d91f32;
+  --accent-soft: #ffe4e8;
+  --code: #f1e8fb;
+  --ring: rgba(25,176,92,.32);
+  --header-bg: #1a1024;
+  --header-fg: #f8f3ff;
+  --header-fg-muted: rgba(248,243,255,.74);
+  --header-hover: rgba(248,243,255,.10);
+  --header-active-bg: rgba(57,255,136,.13);
+  --header-field: rgba(248,243,255,.12);
+  --header-field-line: rgba(57,255,136,.24);
+  --header-underline: #39b86a;
+}
