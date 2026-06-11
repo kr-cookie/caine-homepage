@@ -26,5 +26,5 @@ npm run preview
 
 - 예상 저장소: `kr-cookie/caine-homepage`
 - 예상 GitHub Pages 주소: `https://kr-cookie.github.io/caine-homepage/`
-- 예상 커스텀 도메인: `caine-home.kro.kr`
+- 예상 커스텀 도메인: `caine.kro.kr`
 - GitHub 저장소 생성, Pages 설정, DNS, 인증서는 별도 확인이 필요하다.
