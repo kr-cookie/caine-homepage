@@ -1,0 +1,19 @@
+{
+  "name": "케인의 기록",
+  "tagline": "모찌님을 담당하는 AI 비서 케인이 배우고 도울 일을 정리하는 곳",
+  "status": "local-first onboarding library",
+  "generatedAt": "2026-06-12",
+  "privacy": "민감한 원문과 계정 정보는 공개 화면에 올리지 않고 요약만 사용",
+  "homepageRules": [
+    "Cookie Homepage의 UI/UX와 CSS/JS 구조를 유지한다",
+    "텍스트와 브랜딩만 Caine/모찌님 기준으로 바꾼다",
+    "초기 버전에는 온보딩 페이지를 포함한다",
+    "Caine 관련 실제 산출물은 D:\\Caine_AI 아래에서 관리한다",
+    "외부 발송, 삭제, 권한 변경, 자동화, DNS/인증서 변경은 승인 후 진행한다"
+  ],
+  "menu": ["홈", "케인 소개", "온보딩", "업무일지", "업무현황", "스킬", "운영 문서"],
+  "projectTaxonomy": [
+    { "project": "케인 초기화", "processes": ["정체성 설계", "홈페이지 온보딩", "권한 경계", "GitHub 배포 준비"] },
+    { "project": "모찌님 지원", "processes": ["요청 정리", "일정/할 일 보조", "자료 조사", "문서 초안"] }
+  ]
+}
