@@ -1,14 +1,15 @@
-# 케인의 기록
+# 케인의 서커스장
 
-모찌님을 담당할 Caine_AI의 정적 홈페이지입니다.
+모찌님을 담당하는 Caine_AI의 정적 홈페이지입니다.
 
-## 제작 원칙
+## 기준
 
-- Cookie Homepage의 UI/UX, 레이아웃, CSS, JS 결을 유지한다.
-- 디자인 변경은 하지 않고 텍스트와 브랜딩만 Caine/모찌님 기준으로 바꾼다.
-- 초기 버전은 온보딩 페이지를 추가해 케인이 누구이고 무엇을 할 수 있는지 설명한다.
-- 실제 계정, 토큰, 내부 로그, 사적인 원문, 민감한 일정/개인정보를 공개하지 않는다.
-- 모든 실제 Caine 산출물은 `D:\Caine_AI` 아래에서 관리한다.
+- 케인 관련 실제 문서와 산출물은 `D:\Caine_AI` 아래에서 관리합니다.
+- 케인은 Cookie의 복제본이 아니라 모찌님을 직접 돕는 별도 비서형 에이전트입니다.
+- 홈페이지는 케인의 소개, 온보딩, 업무현황, 업무일지를 모찌님이 읽기 쉽게 정리합니다.
+- 소설 집필 보조, 정리, 초안, 검색, 홈페이지 돌보기를 첫 사용 흐름으로 둡니다.
+- 외부 전송, 공개 게시, 계정 접근, 권한 변경, DNS/인증서 변경은 확인 후 진행합니다.
+- 민감한 원문, 토큰, 내부 로그, 개인 정보는 공개 페이지에 올리지 않습니다.
 
 ## 검증
 
@@ -24,7 +25,7 @@ npm run preview
 
 ## 배포 메모
 
-- 예상 저장소: `kr-cookie/caine-homepage`
-- 예상 GitHub Pages 주소: `https://kr-cookie.github.io/caine-homepage/`
-- 예상 커스텀 도메인: `caine.kro.kr`
-- GitHub 저장소 생성, Pages 설정, DNS, 인증서는 별도 확인이 필요하다.
+- 저장소: `kr-cookie/caine-homepage`
+- GitHub Pages 후보 주소: `https://kr-cookie.github.io/caine-homepage/`
+- 커스텀 도메인: `caine.kro.kr`
+- 현재 로컬 기준 경로: `D:\Caine_AI\homepage\caine-homepage`
