@@ -324,3 +324,88 @@ details.panel > summary { cursor: pointer; font-weight: 700; color: var(--text);
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- Caine circus palette override ----------
+   Keep the Cookie Homepage layout, but give Caine a separate stage:
+   black canvas, show-light gold, warning red, electric cyan, and a little green. */
+:root {
+  --bg: #07070b;
+  --bg-tint: linear-gradient(135deg, rgba(255,212,71,.08), transparent 38%),
+    linear-gradient(225deg, rgba(37,215,255,.08), transparent 42%),
+    radial-gradient(900px 480px at 78% -10%, rgba(255,59,70,.11), transparent 62%);
+  --surface: #0b0b11;
+  --panel: #14141d;
+  --panel-2: #101018;
+  --text: #fff9e8;
+  --muted: #c9c3b4;
+  --faint: #918c83;
+  --line: #34323d;
+  --line-soft: #282630;
+  --primary: #ffd447;
+  --primary-strong: #ffe66d;
+  --primary-ink: #fff0a8;
+  --primary-soft: rgba(255,212,71,.14);
+  --accent: #ff3b46;
+  --accent-soft: rgba(255,59,70,.16);
+  --code: #09090f;
+  --ring: rgba(37,215,255,.42);
+  --header-bg: #090910;
+  --header-fg: #fff9e8;
+  --header-fg-muted: rgba(255,249,232,.72);
+  --header-hover: rgba(37,215,255,.12);
+  --header-active-bg: rgba(255,212,71,.13);
+  --header-field: rgba(255,249,232,.10);
+  --header-field-line: rgba(37,215,255,.24);
+  --header-underline: #25d7ff;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #fffaf0;
+  --bg-tint: linear-gradient(135deg, rgba(255,212,71,.18), transparent 42%),
+    linear-gradient(225deg, rgba(37,215,255,.10), transparent 45%);
+  --surface: #f6f0e1;
+  --panel: #ffffff;
+  --panel-2: #fff7e6;
+  --text: #191922;
+  --muted: #645f55;
+  --faint: #8b8377;
+  --line: #e4d9c0;
+  --line-soft: #f0e6ce;
+  --primary: #c99500;
+  --primary-strong: #8f6700;
+  --primary-ink: #6d4d00;
+  --primary-soft: #fff1bf;
+  --accent: #d62635;
+  --accent-soft: #ffe0e4;
+  --code: #f5eddd;
+  --ring: rgba(0,147,190,.32);
+  --header-bg: #11121a;
+  --header-fg: #fff9e8;
+  --header-fg-muted: rgba(255,249,232,.72);
+  --header-hover: rgba(255,249,232,.10);
+  --header-active-bg: rgba(255,212,71,.15);
+  --header-field: rgba(255,249,232,.12);
+  --header-field-line: rgba(37,215,255,.22);
+  --header-underline: #25d7ff;
+  color-scheme: light;
+}
+
+.brand-mark {
+  background: conic-gradient(from 45deg, #ff3b46, #ffd447, #25d7ff, #2ee66b, #ff3b46);
+  border-color: rgba(255,249,232,.34);
+  color: #050509;
+}
+
+.button.primary {
+  color: #141007;
+}
+
+.button.primary:hover {
+  color: #141007;
+}
+
+:root[data-theme="light"] .button.primary,
+:root[data-theme="light"] .button.primary:hover {
+  color: #191922;
+}
